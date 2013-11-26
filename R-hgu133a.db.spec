@@ -2,12 +2,12 @@
 
 Summary:	Affymetrix Human Genome U133 Set annotation data (chip hgu133a)
 Name:		R-%{packname}
-Version:	2.8.0
+Version:	2.10.1
 Release:	1
 License:	Artistic 2.0
 Group:		Applications/Engineering
 Source0:	http://www.bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	eecc0ee117196de4c98b7ceb012cd824
+# Source0-md5:	0b30a34dc9d0d53edc952a41dd04c302
 URL:		http://www.bioconductor.org/packages/release/data/annotation/html/hgu133a.db.html
 BuildRequires:	R-AnnotationDbi
 BuildRequires:	R-org.Hs.eg.db
